@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BonusServiceTest" time="0.008" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BonusServiceTest" time="0.007" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/surefire/surefirebooter5472642969253284270.jar /home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/surefire 2024-11-05T00-09-28_070-jvmRun1 surefire13189447503524782254tmp surefire_012294567489241847720tmp"/>
+    <property name="sun.java.command" value="/home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/surefire/surefirebooter6289475504652997781.jar /home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/surefire 2024-11-05T00-29-22_627-jvmRun1 surefire13730263035749993511tmp surefire_011606505478251541566tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/test-classes:/home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/classes:/home/kate/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/kate/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/kate/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/kate/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/kate/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/kate/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/kate/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/kate/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/surefire/surefirebooter5472642969253284270.jar"/>
+    <property name="surefire.real.class.path" value="/home/kate/Рабочий стол/homeworks/bonus-service-mvn/target/surefire/surefirebooter6289475504652997781.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
     <property name="user.name" value="kate"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldCalculateForRegisteredAndOverLimit" classname="BonusServiceTest" time="0.003"/>
-  <testcase name="shouldCalculateForNotRegisteredAndUnderLimit" classname="BonusServiceTest" time="0.001"/>
+  <testcase name="shouldCalculateForRegisteredAndOverLimit" classname="BonusServiceTest" time="0.002"/>
+  <testcase name="shouldCalculateForNotRegisteredAndUnderLimit" classname="BonusServiceTest" time="0"/>
   <testcase name="shouldCalculateForNotRegisteredAndOverLimit" classname="BonusServiceTest" time="0"/>
   <testcase name="shouldCalculateForRegisteredAndUnderLimit" classname="BonusServiceTest" time="0.001"/>
 </testsuite>
